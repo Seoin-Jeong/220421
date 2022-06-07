@@ -4,8 +4,7 @@ public class ProductVO {
 	private String id;
 	private String password;
 	private String address;
-<<<<<<< HEAD
-=======
+
 	public ProductVO() {
 		super();
 	}
@@ -33,6 +32,5 @@ public class ProductVO {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
->>>>>>> refs/heads/jsi-member
+
 }
