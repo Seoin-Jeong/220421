@@ -31,5 +31,9 @@ public class ProductVO {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	@Override
+	public String toString() {
+		return "ProductVO [id=" + id + ", password=" + password + ", address=" + address + "]";
+	}
 
 }
