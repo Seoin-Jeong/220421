@@ -1,9 +1,10 @@
 package org.kosta.myproject.model;
-
 public class ProductVO {
 	private String id;
 	private String password;
 	private String address;
+	private String name;
+
 	public ProductVO() {
 		super();
 	}
